@@ -1,3 +1,12 @@
+
+body {
+    background-color:rgba(0, 0, 0, 0.864);
+}
+.main-text {
+    font-size: 42px;
+    font-family: sans-serif;
+    letter-spacing: 1.5 px;
+}
 .home-background {
     height: 100vh;
     display: flex;
@@ -13,6 +22,7 @@
     font-family: sans-serif 7;
     font-weight: 300;
     text-align: center;
+    color: white;
 }
 
 .logo-text {
@@ -29,6 +39,7 @@
     width:55px;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 .list-row {
     display: flex;
@@ -44,4 +55,28 @@
 }
 .icon {
     mix-blend-mode:multiply;
+}
+.yel-bu {
+    height: 30px;
+    width: 81px;
+    margin-top: 20px;
+}
+.btn-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttontype {
+   width: 81px;
+   height: 30px;
+   background-color: orange;
+   border-radius: 10px;
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 12px;
+   font-family: 'Poppins', sans-serif;
 }
