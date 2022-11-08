@@ -1,0 +1,47 @@
+.home-background {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-light {
+    width: 192px;
+    height: 56px;
+    font-size: 42;
+    letter-spacing: 1px;
+    font-family: sans-serif 7;
+    font-weight: 300;
+    text-align: center;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .logoimg {
+    mix-blend-mode: multiply; 
+} 
+.list {
+    height: 5px;
+    width:55px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.list-row {
+    display: flex;
+}
+.eng {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.list :hover {
+    color: gray;
+    cursor: pointer;
+}
+.icon {
+    mix-blend-mode:multiply;
+}
