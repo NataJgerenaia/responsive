@@ -1,6 +1,6 @@
 
 body {
-    background-color:rgba(0, 0, 0, 0.864);
+    background-color:rgba(1, 3, 10, 0.864);
 }
 .main-text {
     font-size: 42px;
@@ -31,12 +31,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
- .logoimg {
-    mix-blend-mode: multiply; 
 } 
 .list {
-    height: 5px;
+    height: 10px;
     width:55px;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
@@ -47,16 +44,19 @@ body {
 }
 .eng {
     display: flex;
-    justify-content: start;
+    justify-content: flex-end;
     align-items: center;
 }
-.list :hover {
+.engtext {
+    width: 35px;
+}
+.list:hover {
     color: gray;
     cursor: pointer;
 }
 .icon {
     mix-blend-mode:multiply;
-}
+} 
 .yel-bu {
     height: 30px;
     width: 81px;
@@ -72,7 +72,7 @@ body {
    width: 81px;
    height: 30px;
    background-color: orange;
-   border-radius: 10px;
+   border-radius: 8px;
    margin-top: 30px;
    display: flex;
    justify-content: center;
@@ -81,4 +81,3 @@ body {
    font-size: 12px;
    font-family: 'Poppins', sans-serif;
 }
-ferebi
