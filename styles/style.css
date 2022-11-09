@@ -55,7 +55,8 @@ body {
     cursor: pointer;
 }
 .icon {
-    mix-blend-mode:multiply;
+    height: 5px;
+    fill: green;
 } 
 .yel-bu {
     height: 30px;
@@ -81,3 +82,4 @@ body {
    font-size: 12px;
    font-family: 'Poppins', sans-serif;
 }
+
